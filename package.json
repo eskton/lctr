@@ -1,0 +1,14 @@
+{
+  "name": "lctr",
+  "version": "1.0.0",
+  "description": "Telegram bot + Mini App map for mutual, consent-based live location sharing between friends",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.js\""
+  }
+}
